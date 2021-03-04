@@ -28,6 +28,15 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead">Wednesday, March 3rd</p>
     </header>
+
+    <!-- Timeblocks go here - create 8 timeblocks (divs assign a boostrap class of row and custom class of time block) 
+      bootstrap lay out classes: assign bootstrap class of row and class I've defined of time-block;
+      give unique id - as a key to store data -->
+    <!-- create a div for the (hour), a text area for the description of whats going on in this hour block and button to (save)
+      add the data-hour attribute ot the timeblock(for the loop)
+      the div will have a class of hour, the text area will have a class of description, and the button will have a class of saveBtn
+      assign a bootstrap class of column col-* to define the layout inside the grid of this row -->
+ 
     <div class="container">
       <form class="row">
         <div class="col-md-2 hour">09am</div>
