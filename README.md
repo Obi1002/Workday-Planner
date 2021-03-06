@@ -1,22 +1,16 @@
-# 05 Third-Party APIs: Work Day Scheduler
+* [Acceptance Criteria](#acceptancecriteria)
+* [Project Status](#projectstatus)
+* [License](#license)
+* [Deployment](#deployment)
+* [Usage](#usage)
+* [Preview of the App](#previewApp)
 
-## Your Task
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+# Workday Planner
+ 
+For this project, I aim to improve the functionality of a standardized work day planner.  This planner will enable its user to track their lists in real-time using the moment library. My main motivation for this project is to utilize Bootstrap, jQuery, and moment to create an easy funtioning planner that saves its data in local storage and appeals to its users.  To ensure the accessiblity of the app, there will be a visually appealing coclor contrast that reresents the past, present and future. Being able to accomplish this workday planner will increase the productivity of any user's day.    
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
-
-## User Story
-
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
-
-## Acceptance Criteria
-
-```md
+# Acceptance Criteria
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -30,60 +24,21 @@ WHEN I click the save button for that timeblock
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
-```
 
-The following animation demonstrates the application functionality:
+# Project Status
+This project was completed on March 6, 2021. 
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+# License
+MIT
 
+# Deployment
 
-## Grading Requirements
+Access this document here: https://github.com/Obi1002/Workday-Planner
+[Live Link](https://obi1002.github.io/Workday-Planner/) 
 
-This homework is graded based on the following criteria: 
+# Usage
+When you open the webpage, you will have a live work day planner presented to you.  Fill in tasks and save.  As your work day progresses, you will be able to visually to see the past hour(s), current hour and future hour(s) all in different colors. Enjoy your new planner!
 
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+# Preview of the App
+* This is how the app looks
+![Work Day Planner Screenshot](./Assets/WorkdayPlannerScreenshot.PNG)
